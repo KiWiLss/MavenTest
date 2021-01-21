@@ -6,6 +6,10 @@ buildscript {
         jcenter()
         //需要添加的
         mavenLocal()
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+        }
+
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.0.1"
@@ -21,7 +25,27 @@ allprojects {
         google()
         jcenter()
         //需要添加的
-        maven { url "http://localhost:8081/repository/toastutils/" }
+//        maven { url "http://localhost:8081/repository/toastutils/" }
+
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+        }
+
+//        maven {
+//            credentials {
+//                username 'dv6wR6'
+//                password 'NW0AdpT7AA'
+//            }
+//            url 'https://repo.rdc.aliyun.com/repository/129951-release-mvL5bm/'
+//        }
+        maven {
+            credentials {
+                username 'dv6wR6'
+                password 'NW0AdpT7AA'
+            }
+            url 'https://repo.rdc.aliyun.com/repository/129951-snapshot-TQ7xhh/'
+        }
+
     }
 }
 

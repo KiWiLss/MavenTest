@@ -30,7 +30,7 @@ uploadArchives {
             }
             pom.project {
                 //版本，有更新时修改版本号，再上传
-                version '1.0.1'
+                version '1.0.6'
                 //名字
                 artifactId 'toastutils'
                 groupId GROUP_ID

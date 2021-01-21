@@ -26,5 +26,20 @@
       <option name="name" value="maven" />
       <option name="url" value="http://localhost:8081/repository/toastutils/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://repo.rdc.aliyun.com/repository/129951-release-mvL5bm/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven3" />
+      <option name="name" value="maven3" />
+      <option name="url" value="https://repo.rdc.aliyun.com/repository/129951-snapshot-TQ7xhh/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
   </component>
 </project>
