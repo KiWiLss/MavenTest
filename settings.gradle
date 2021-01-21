@@ -1,0 +1,3 @@
+include ':toastutils'
+include ':app'
+rootProject.name = "MavenTest"
