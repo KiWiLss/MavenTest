@@ -48,5 +48,5 @@ dependencies {
 //    implementation 'toastutils:toastutils:1.0.1'
 //    compile 'kiwilss:toastutils:1.0.6'
 
-    implementation 'toastutils:toastutils:1.0.8'
+//    implementation 'toastutils:toastutils:1.0.8'
 }
